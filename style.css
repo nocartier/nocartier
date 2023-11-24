@@ -1,0 +1,79 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 6px;
+}
+
+body {
+	background-color: floralwhite;
+	font-family: arial, sans-serif;
+}
+
+p, h2, ul {
+	margin-left: 80px;
+	margin-right: 50px;
+}
+
+h1 {
+	color: darkred;
+	border-bottom-style: solid;
+	border-width: 1px;
+	padding-bottom: 5px;
+	margin-left: 60px;
+	margin-right: 30px;
+}
+
+h2 {
+	color: darkblue;
+}
+
+h3 {
+	color: darkblue;
+	margin-left: 100px;
+	margin-right: 70px;
+}
+
+p {
+}
+
+.topnav {
+	background-color: darkred;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin: 0;
+}
+
+.topnav a {
+	font-size: 150%;
+	font-weight: bold;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: floralwhite;
+	color: darkred;
+}
+
+.photo {
+	float: right;
+}
+
+.photo p {
+	margin-top:-5px;
+}
+
+.photo img {
+	max-width: 400px;
+	height: auto;
+	padding: 2px;
+}
